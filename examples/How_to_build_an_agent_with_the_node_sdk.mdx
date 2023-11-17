@@ -136,7 +136,7 @@ async function agent(userInput) {
     },
   ]);
   const response = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4-1106-preview",
     messages: messages,
     functions: functionDefinitions,
   });
@@ -173,7 +173,7 @@ to the console like this:
     id: "chatcmpl-84ojoEJtyGnR6jRHK2Dl4zTtwsa7O",
     object: "chat.completion",
     created: 1696159040,
-    model: "gpt-4-0613",
+    model: "gpt-4-1106-preview",
     choices: [{
         index: 0,
         message: {
@@ -285,7 +285,7 @@ answer, so we'll return the function and cancel the loop.
 ```js
 for (let i = 0; i < 5; i++) {
   const response = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4-1106-preview",
     messages: messages,
     functions: functionDefinitions,
   });
@@ -436,7 +436,7 @@ async function agent(userInput) {
 
   for (let i = 0; i < 5; i++) {
     const response = await openai.chat.completions.create({
-      model: "gpt-4",
+      model: "gpt-4-1106-preview",
       messages: messages,
       functions: functionDefinitions,
     });

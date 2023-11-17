@@ -137,3 +137,14 @@ dmypy.json
 *.DS_Store
 tmp_*
 examples/fine-tuned_qa/local_cache/*
+
+
+.vs/*
+*.user
+
+*vector_database_wikipedia_articles_embedded.zip
+*vector_database_wikipedia_articles_embedded.zip
+*_vector_database_wikipedia_articles_embedded.csv
+*vector_database_wikipedia_articles_embedded.csv
+*archivo.env.zip
+*winter_olympics_2022.csv

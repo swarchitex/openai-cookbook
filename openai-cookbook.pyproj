@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2d85d761-8223-4460-9332-2a8b472f4201}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|.venv|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="articles\how_to_work_with_large_language_models.md" />
+    <Content Include="articles\related_resources.md" />
+    <Content Include="articles\techniques_to_improve_reliability.md" />
+    <Content Include="articles\text_comparison_examples.md" />
+    <Content Include="articles\what_makes_documentation_good.md" />
+    <Content Include="CONTRIBUTING.md" />
+    <Content Include="examples\azure\chat.ipynb" />
+    <Content Include="examples\azure\chat_with_your_own_data.ipynb" />
+    <Content Include="examples\azure\completions.ipynb" />
+    <Content Include="examples\azure\DALL-E.ipynb" />
+    <Content Include="examples\azure\embeddings.ipynb" />
+    <Content Include="examples\azure\functions.ipynb" />
+    <Content Include="examples\book_translation\data\geometry_English.tex" />
+    <Content Include="examples\book_translation\data\geometry_slovenian.tex" />
+    <Content Include="examples\book_translation\translate_latex_book.ipynb" />
+    <Content Include="examples\Chat_finetuning_data_prep.ipynb" />
+    <Content Include="examples\Classification_using_embeddings.ipynb" />
+    <Content Include="examples\Clustering.ipynb" />
+    <Content Include="examples\Clustering_for_transaction_classification.ipynb" />
+    <Content Include="examples\Code_search_using_embeddings.ipynb" />
+    <Content Include="examples\Customizing_embeddings.ipynb" />
+    <Content Include="examples\dalle\How_to_create_dynamic_masks_with_DALL-E_and_Segment_Anything.ipynb" />
+    <Content Include="examples\dalle\images\01_generations\generation_1.png" />
+    <Content Include="examples\dalle\images\01_generations\generation_2.png" />
+    <Content Include="examples\dalle\images\01_generations\generation_3.png" />
+    <Content Include="examples\dalle\images\02_masks\new_mask.png" />
+    <Content Include="examples\dalle\images\03_edits\edits_0.png" />
+    <Content Include="examples\dalle\images\03_edits\edits_1.png" />
+    <Content Include="examples\dalle\images\03_edits\edits_2.png" />
+    <Content Include="examples\dalle\images\03_edits\edits_3.png" />
+    <Content Include="examples\dalle\Image_generations_edits_and_variations_with_DALL-E.ipynb" />
+    <Content Include="examples\data\10k\lyft_2021.pdf" />
+    <Content Include="examples\data\10k\uber_2021.pdf" />
+    <Content Include="examples\data\25000_spend_dataset_current.csv" />
+    <Content Include="examples\data\AG_news_samples.csv" />
+    <Content Include="examples\data\Chinook.db" />
+    <Content Include="examples\data\cookbook_recipes_nlg_10k.csv" />
+    <Content Include="examples\data\dbpedia_samples.jsonl" />
+    <Content Include="examples\data\example_events_openapi.json" />
+    <Content Include="examples\data\example_requests_to_parallel_process.jsonl" />
+    <Content Include="examples\data\fia_f1_power_unit_financial_regulations_issue_1_-_2022-08-16.pdf" />
+    <Content Include="examples\data\fine_food_reviews_1k.csv" />
+    <Content Include="examples\data\fine_food_reviews_with_embeddings_1k.csv" />
+    <Content Include="examples\data\labelled_transactions.csv" />
+    <Content Include="examples\data\library_transactions_with_embeddings_359.csv" />
+    <Content Include="examples\data\marketing_sample_for_amazon_com-ecommerce__20200101_20200131__10k_data.csv" />
+    <Content Include="examples\data\papers\.gitkeep" />
+    <Content Include="examples\data\recommendations_embeddings_cache.pkl" />
+    <Content Include="examples\data\scifact_claims.jsonl" />
+    <Content Include="examples\data\scifact_corpus.jsonl" />
+    <Content Include="examples\data\snli_1.0_train_2k.csv" />
+    <Content Include="examples\data\styles_2k.csv" />
+    <Content Include="examples\data\styles_44k.csv" />
+    <Content Include="examples\data\toy_chat_fine_tuning.jsonl" />
+    <Content Include="examples\data\vector_database_wikipedia_articles_embedded.csv" />
+    <Content Include="examples\Embedding_long_inputs.ipynb" />
+    <Content Include="examples\Embedding_Wikipedia_articles_for_search.ipynb" />
+    <Content Include="examples\Entity_extraction_for_long_documents.ipynb" />
+    <Content Include="examples\evaluation\How_to_eval_abstractive_summarization.ipynb" />
+    <Content Include="examples\Fine-tuned_classification.ipynb" />
+    <Content Include="examples\fine-tuned_qa\ft_retrieval_augmented_generation_qdrant.ipynb" />
+    <Content Include="examples\fine-tuned_qa\olympics-1-collect-data.ipynb" />
+    <Content Include="examples\fine-tuned_qa\olympics-2-create-qa.ipynb" />
+    <Content Include="examples\fine-tuned_qa\olympics-3-train-qa.ipynb" />
+    <Content Include="examples\Function_calling_finding_nearby_places.ipynb" />
+    <Content Include="examples\Function_calling_with_an_OpenAPI_spec.ipynb" />
+    <Content Include="examples\Get_embeddings_from_dataset.ipynb" />
+    <Content Include="examples\How_to_build_an_agent_with_the_node_sdk.mdx" />
+    <Content Include="examples\How_to_build_a_tool-using_agent_with_Langchain.ipynb" />
+    <Content Include="examples\How_to_call_functions_for_knowledge_retrieval.ipynb" />
+    <Content Include="examples\How_to_call_functions_with_chat_models.ipynb" />
+    <Content Include="examples\How_to_count_tokens_with_tiktoken.ipynb" />
+    <Content Include="examples\How_to_finetune_chat_models.ipynb" />
+    <Content Include="examples\How_to_format_inputs_to_ChatGPT_models.ipynb" />
+    <Content Include="examples\How_to_handle_rate_limits.ipynb" />
+    <Content Include="examples\How_to_stream_completions.ipynb" />
+    <Content Include="examples\Multiclass_classification_for_transactions.ipynb" />
+    <Content Include="examples\Question_answering_using_a_search_API.ipynb" />
+    <Content Include="examples\Question_answering_using_embeddings.ipynb" />
+    <Content Include="examples\Recommendation_using_embeddings.ipynb" />
+    <Content Include="examples\Regression_using_embeddings.ipynb" />
+    <Content Include="examples\Search_reranking_with_cross-encoders.ipynb" />
+    <Content Include="examples\Semantic_text_search_using_embeddings.ipynb" />
+    <Content Include="examples\third_party\financial_document_analysis_with_llamaindex.ipynb" />
+    <Content Include="examples\third_party\GPT_finetuning_with_wandb.ipynb" />
+    <Content Include="examples\third_party\How_to_automate_S3_storage_with_functions.ipynb" />
+    <Content Include="examples\third_party\Openai_monitoring_with_wandb_weave.ipynb" />
+    <Content Include="examples\third_party\Visualizing_embeddings_in_Kangas.ipynb" />
+    <Content Include="examples\third_party\Visualizing_embeddings_in_wandb.ipynb" />
+    <Content Include="examples\third_party\Visualizing_embeddings_with_Atlas.ipynb" />
+    <Content Include="examples\Unit_test_writing_using_a_multi-step_prompt.ipynb" />
+    <Content Include="examples\Unit_test_writing_using_a_multi-step_prompt_with_older_completions_API.ipynb" />
+    <Content Include="examples\User_and_product_embeddings.ipynb" />
+    <Content Include="examples\Using_embeddings.ipynb" />
+    <Content Include="examples\vector_databases\analyticdb\Getting_started_with_AnalyticDB_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\analyticdb\QA_with_Langchain_AnalyticDB_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\azuresearch\Getting_started_with_azure_cognitive_search_and_openai.ipynb" />
+    <Content Include="examples\vector_databases\azuresearch\vector_database_wikipedia_articles_embedded.zip" />
+    <Content Include="examples\vector_databases\cassandra_astradb\Philosophical_Quotes_cassIO.ipynb" />
+    <Content Include="examples\vector_databases\cassandra_astradb\Philosophical_Quotes_CQL.ipynb" />
+    <Content Include="examples\vector_databases\cassandra_astradb\README.md" />
+    <Content Include="examples\vector_databases\cassandra_astradb\sources\philo_quotes.json" />
+    <Content Include="examples\vector_databases\chroma\hyde-with-chroma-and-openai.ipynb" />
+    <Content Include="examples\vector_databases\chroma\Using_Chroma_for_embeddings_search.ipynb" />
+    <Content Include="examples\vector_databases\deeplake\deeplake_langchain_qa.ipynb" />
+    <Content Include="examples\vector_databases\elasticsearch\elasticsearch-retrieval-augmented-generation.ipynb" />
+    <Content Include="examples\vector_databases\elasticsearch\elasticsearch-semantic-search.ipynb" />
+    <Content Include="examples\vector_databases\elasticsearch\README.md" />
+    <Content Include="examples\vector_databases\hologres\Getting_started_with_Hologres_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\kusto\Getting_started_with_kusto_and_openai_embeddings.ipynb" />
+    <Content Include="examples\vector_databases\kusto\images\kusto_vector_db.png" />
+    <Content Include="examples\vector_databases\kusto\images\semantic_search_user_flow.png" />
+    <Content Include="examples\vector_databases\kusto\images\wiki_embeddings.png" />
+    <Content Include="examples\vector_databases\kusto\README.md" />
+    <Content Include="examples\vector_databases\milvus\docker-compose.yaml" />
+    <Content Include="examples\vector_databases\milvus\Filtered_search_with_Milvus_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\milvus\Getting_started_with_Milvus_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\myscale\Getting_started_with_MyScale_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\myscale\Using_MyScale_for_embeddings_search.ipynb" />
+    <Content Include="examples\vector_databases\neon\.env" />
+    <Content Include="examples\vector_databases\neon\neon-postgres-vector-search-pgvector.ipynb" />
+    <Content Include="examples\vector_databases\neon\README.md" />
+    <Content Include="examples\vector_databases\pinecone\Gen_QA.ipynb" />
+    <Content Include="examples\vector_databases\pinecone\GPT4_Retrieval_Augmentation.ipynb" />
+    <Content Include="examples\vector_databases\pinecone\README.md" />
+    <Content Include="examples\vector_databases\pinecone\Semantic_Search.ipynb" />
+    <Content Include="examples\vector_databases\pinecone\Using_Pinecone_for_embeddings_search.ipynb" />
+    <Content Include="examples\vector_databases\PolarDB\Getting_started_with_PolarDB_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\qdrant\docker-compose.yaml" />
+    <Content Include="examples\vector_databases\qdrant\Getting_started_with_Qdrant_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\qdrant\QA_with_Langchain_Qdrant_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\qdrant\Using_Qdrant_for_embeddings_search.ipynb" />
+    <Content Include="examples\vector_databases\README.md" />
+    <Content Include="examples\vector_databases\redis\docker-compose.yml" />
+    <Content Include="examples\vector_databases\redis\getting-started-with-redis-and-openai.ipynb" />
+    <Content Include="examples\vector_databases\redis\README.md" />
+    <Content Include="examples\vector_databases\redis\redis-hybrid-query-examples.ipynb" />
+    <Content Include="examples\vector_databases\redis\redis.conf" />
+    <Content Include="examples\vector_databases\redis\redisjson\docker-compose.yml" />
+    <Content Include="examples\vector_databases\redis\redisjson\redisjson.ipynb" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\001.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\002.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\003.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\004.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\005.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\006.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\007.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\008.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\009.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\010.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\011.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\012.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\assets\013.txt" />
+    <Content Include="examples\vector_databases\redis\redisqna\docker-compose.yml" />
+    <Content Include="examples\vector_databases\redis\redisqna\redisqna.ipynb" />
+    <Content Include="examples\vector_databases\redis\Using_Redis_for_embeddings_search.ipynb" />
+    <Content Include="examples\vector_databases\SingleStoreDB\OpenAI_wikipedia_semantic_search.ipynb" />
+    <Content Include="examples\vector_databases\SingleStoreDB\README.md" />
+    <Content Include="examples\vector_databases\tair\Getting_started_with_Tair_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\tair\QA_with_Langchain_Tair_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\typesense\.gitignore" />
+    <Content Include="examples\vector_databases\typesense\docker-compose.yml" />
+    <Content Include="examples\vector_databases\typesense\README.md" />
+    <Content Include="examples\vector_databases\typesense\Using_Typesense_for_embeddings_search.ipynb" />
+    <Content Include="examples\vector_databases\weaviate\docker-compose.yml" />
+    <Content Include="examples\vector_databases\weaviate\generative-search-with-weaviate-and-openai.ipynb" />
+    <Content Include="examples\vector_databases\weaviate\getting-started-with-weaviate-and-openai.ipynb" />
+    <Content Include="examples\vector_databases\weaviate\hybrid-search-with-weaviate-and-openai.ipynb" />
+    <Content Include="examples\vector_databases\weaviate\question-answering-with-weaviate-and-openai.ipynb" />
+    <Content Include="examples\vector_databases\weaviate\README.md" />
+    <Content Include="examples\vector_databases\weaviate\Using_Weaviate_for_embeddings_search.ipynb" />
+    <Content Include="examples\vector_databases\zilliz\Filtered_search_with_Zilliz_and_OpenAI.ipynb" />
+    <Content Include="examples\vector_databases\zilliz\Getting_started_with_Zilliz_and_OpenAI.ipynb" />
+    <Content Include="examples\Visualizing_embeddings_in_2D.ipynb" />
+    <Content Include="examples\Visualizing_embeddings_in_3D.ipynb" />
+    <Content Include="examples\Whisper_correct_misspelling.ipynb" />
+    <Content Include="examples\Whisper_processing_guide.ipynb" />
+    <Content Include="examples\Whisper_prompting_guide.ipynb" />
+    <Content Include="examples\Zero-shot_classification_with_embeddings.ipynb" />
+    <Content Include="images\chain_of_thought_fig1.png" />
+    <Content Include="images\chain_of_thought_fig11.png" />
+    <Content Include="images\chain_of_thought_fig3.png" />
+    <Content Include="images\chain_of_thought_fig5.png" />
+    <Content Include="images\faithful-reasoning_fig1.png" />
+    <Content Include="images\faithful-reasoning_fig2.png" />
+    <Content Include="images\faithful-reasoning_fig3.png" />
+    <Content Include="images\faithful-reasoning_fig4.png" />
+    <Content Include="images\faithful-reasoning_fig5.png" />
+    <Content Include="images\faithful-reasoning_fig7.png" />
+    <Content Include="images\faithful-reasoning_tab2.png" />
+    <Content Include="images\faithful-reasoning_tab5.png" />
+    <Content Include="images\least-to-most_fig1.png" />
+    <Content Include="images\least-to-most_tab11.png" />
+    <Content Include="images\least-to-most_tab4.png" />
+    <Content Include="images\least-to-most_tab9.png" />
+    <Content Include="images\lm_cascades_fig1.png" />
+    <Content Include="images\lm_cascades_fig3.png" />
+    <Content Include="images\lm_cascades_fig4.png" />
+    <Content Include="images\lm_cascades_fig5.png" />
+    <Content Include="images\lm_cascades_fig6.png" />
+    <Content Include="images\maieutic_fig2.png" />
+    <Content Include="images\maieutic_fig6.png" />
+    <Content Include="images\maieutic_tab1.png" />
+    <Content Include="images\openai-cookbook-white.png" />
+    <Content Include="images\openai-cookbook.png" />
+    <Content Include="images\search_rerank_answer.png" />
+    <Content Include="images\selection-inference_fig1.png" />
+    <Content Include="images\selection-inference_fig4.png" />
+    <Content Include="images\self-consistency_fig1.png" />
+    <Content Include="images\self-consistency_fig3.png" />
+    <Content Include="images\star_fig1.png" />
+    <Content Include="images\star_tab1.png" />
+    <Content Include="images\verifiers_fig3.png" />
+    <Content Include="images\verifiers_fig5.png" />
+    <Content Include="images\zero-shot_reasoners_fig1.png" />
+    <Content Include="images\zero-shot_reasoners_fig2.png" />
+    <Content Include="images\zero-shot_reasoners_tab1.png" />
+    <Content Include="images\zero-shot_reasoners_tab5.png" />
+    <Content Include="LICENSE" />
+    <Content Include="README.md" />
+    <Content Include="registry.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="articles\" />
+    <Folder Include="examples\" />
+    <Folder Include="examples\azure\" />
+    <Folder Include="examples\book_translation\" />
+    <Folder Include="examples\book_translation\data\" />
+    <Folder Include="examples\dalle\" />
+    <Folder Include="examples\dalle\images\" />
+    <Folder Include="examples\dalle\images\01_generations\" />
+    <Folder Include="examples\dalle\images\02_masks\" />
+    <Folder Include="examples\dalle\images\03_edits\" />
+    <Folder Include="examples\data\" />
+    <Folder Include="examples\data\10k\" />
+    <Folder Include="examples\data\papers\" />
+    <Folder Include="examples\evaluation\" />
+    <Folder Include="examples\fine-tuned_qa\" />
+    <Folder Include="examples\third_party\" />
+    <Folder Include="examples\vector_databases\" />
+    <Folder Include="examples\vector_databases\analyticdb\" />
+    <Folder Include="examples\vector_databases\azuresearch\" />
+    <Folder Include="examples\vector_databases\cassandra_astradb\" />
+    <Folder Include="examples\vector_databases\cassandra_astradb\sources\" />
+    <Folder Include="examples\vector_databases\chroma\" />
+    <Folder Include="examples\vector_databases\deeplake\" />
+    <Folder Include="examples\vector_databases\elasticsearch\" />
+    <Folder Include="examples\vector_databases\hologres\" />
+    <Folder Include="examples\vector_databases\kusto\" />
+    <Folder Include="examples\vector_databases\kusto\images\" />
+    <Folder Include="examples\vector_databases\milvus\" />
+    <Folder Include="examples\vector_databases\myscale\" />
+    <Folder Include="examples\vector_databases\neon\" />
+    <Folder Include="examples\vector_databases\pinecone\" />
+    <Folder Include="examples\vector_databases\PolarDB\" />
+    <Folder Include="examples\vector_databases\qdrant\" />
+    <Folder Include="examples\vector_databases\redis\" />
+    <Folder Include="examples\vector_databases\redis\redisjson\" />
+    <Folder Include="examples\vector_databases\redis\redisqna\" />
+    <Folder Include="examples\vector_databases\redis\redisqna\assets\" />
+    <Folder Include="examples\vector_databases\SingleStoreDB\" />
+    <Folder Include="examples\vector_databases\tair\" />
+    <Folder Include="examples\vector_databases\typesense\" />
+    <Folder Include="examples\vector_databases\weaviate\" />
+    <Folder Include="examples\vector_databases\zilliz\" />
+    <Folder Include="images" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include=".venv\">
+      <Id>.venv</Id>
+      <Description>.venv (Python 3.11 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.11</Version>
+      <Architecture>X64</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="examples\api_request_parallel_processor.py" />
+    <Compile Include="examples\Backtranslation_of_SQL_queries.py" />
+    <Compile Include="examples\fine-tuned_qa\answers_with_ft.py" />
+    <Compile Include="examples\vector_databases\redis\nbutils.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
